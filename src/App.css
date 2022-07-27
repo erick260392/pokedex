@@ -1,0 +1,94 @@
+.card-title{
+ text-align: center;
+}
+
+.title_pokedex{
+  margin: 10px;  
+  text-align: center;
+}
+
+.form-control{
+  margin: 10px;
+  height: fit-content;
+  width: fit-content;
+  align-items: center;
+  gap: 30px;
+ 
+  
+}
+
+.card_pokemon{
+  margin: 20px;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ gap: 10px;
+
+}
+
+.sub_card{
+  background-color: #C4FCEF;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.btn {
+
+margin: 10px;
+}
+
+
+.card_info{
+  background-color:grey;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 20px;
+
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+.card{
+  align-items: center;
+}
+
+.card_detail{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color:#FBEAFF;
+  align-items: center;
+  justify-items: center;
+  height: 1200px;
+  width: 1200px;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin: 30px;
+  height: fit-content;
+  padding: 20px;
+
+}
+
+.card_text{
+  display: flex;
+  flex-direction: column;
+  background-color: #D5CABD;
+  height: 800px;
+  width: 800px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
