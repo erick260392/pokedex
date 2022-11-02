@@ -23,7 +23,7 @@ const Pokemon = () => {
             .then(res => setPokemon(res.data.results))
             .finally(() => setloading(false));
 
-
+console.log(Pokemon);
         axios.get("https://pokeapi.co/api/v2/type/")
             .then(res => setTypes(res.data.results))
     }, [])
@@ -61,7 +61,7 @@ const Pokemon = () => {
     return (
         <div className='container'>
 
-            <h1 className='title_pokedex'>Bienvenido <b>{user}</b> este el Pokedex api</h1>
+            <h1 className='title_pokedex'>Bienvenido <b>{user}</b> este el Pokedex Api</h1>
 
             <form onSubmit={serch} >
                 <div className="mb-3">
@@ -72,7 +72,7 @@ const Pokemon = () => {
                         onChange={e => (setSerch(e.target.value))} />
                 </div>
 
-                <button className="btn btn-success" >SERCH</button>
+                <button className="btn btn-success" >Search</button>
             </form>
             <select className='card_option' onChange={filterTypes} >
                 <option value=""> SELECCIONA UN TIPO DE POKEMON</option>

@@ -23,7 +23,7 @@ const [Pokemon, setPokemon] = useState({});
     return (
         <div className='sub_card' onClick={()=>(navigate(`/pokemon/${Pokemon.id}`))}>
              <h1> {Pokemon.name}</h1>
-            <img src={Pokemon.sprites?.other.dream_world.front_default} />
+            <img src={Pokemon.sprites?.other.home.front_default} />
             <h2>{Pokemon.types?.[0]?.type.name}/{Pokemon.types?.[1]?.type.name}</h2>
            <h3>type</h3>
            <div className='card_info' >
