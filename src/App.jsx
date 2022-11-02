@@ -12,10 +12,9 @@ function App() {
     <div className="App">
       <HashRouter>
       <h1 className="card-title">POKEDEX</h1>
-        <Routes>
+          <Routes>
         <Route path='/' element={<UserInput />} />
           <Route element = {<ProtectedRoutes/>}>
-
             <Route path='/pokemon' element={<Pokemon />} />
             <Route path='/pokemon/:id' element={<PokemonDetail />} />
        
