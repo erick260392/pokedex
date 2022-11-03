@@ -113,7 +113,7 @@ position: absolute;
   height: fit-content;
   width: fit-content;
   align-items: center;
-  gap: 30px;
+ color: #fff;
  
   
 }
@@ -121,11 +121,39 @@ position: absolute;
 .container button{
   border: #FA0000 solid;
   background-color:#333;
-  color: #130013;
+  color: #fff;
   border-radius: 25px;
   width: 5rem;
 }
+.container select{
+  border: solid #FA0000;
+  border-radius: 3rem;
+  padding: 2px;
+  background-color: #333;
+  color: #fff;
+}
 
+.container .nav-bar{
+  height: 4rem;
+  border: solid #f9004d; 
+  background-color: #333
+}
+
+.container nav{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container a{
+  color: #fff;
+  border-radius: 40%;
+  background-image: url('../src/assets/images/banner-bg.png');
+}
 .card_pokemon{
   margin: 20px;
  display: grid;
